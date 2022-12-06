@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width: 739px) { 
+    .order-detail-product__list {
+        padding: 0;
+    }
+}

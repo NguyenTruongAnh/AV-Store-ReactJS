@@ -1,0 +1,7 @@
+/* Mobile */
+@media (max-width: 739px) { 
+    .header-left, 
+    .header-right {
+        padding: 0 12px;
+    }
+}

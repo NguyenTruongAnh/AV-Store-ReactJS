@@ -1,0 +1,16 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .header-mobile__content {
+        width: 100%;
+    }
+
+    .header-mobile__overlay {
+        width: 0;
+    }
+
+    .header-nav__item {
+        font-size: 18px;
+        margin: 0;
+    }
+}
+

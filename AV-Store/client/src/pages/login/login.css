@@ -1,0 +1,132 @@
+.login {
+    min-height: 800px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)), 
+        url("../../assets/images/login-background.jpg");
+    background-repeat: repeat;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+.login-title {
+    font-size: 50px;
+}
+
+.login-form {
+    width: 300px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form > label {
+    margin: 10px 0;
+}
+
+.login-input {
+    padding: 8px 20px;
+    background-color: white;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 16px;
+}
+
+.login-input:focus {
+    border-color: var(--blue-color);
+}
+
+.login-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.login-btn:hover {
+    background-color: red;
+}
+
+.login-btn:disabled {
+    cursor: not-allowed;
+    background-color: rgb(241, 154, 154);
+}
+
+.login-google {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid var(--bg-color9);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.login-google:hover {
+    background-color: #dce0e3;
+}
+
+.login-google > div {
+    margin-right: 12px;
+    width: 32px;
+    height: 32px;
+    background-image: url('../../assets/images/google-icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.login-register-btn {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    display: block;
+    color: white!important;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-register-btn:hover {
+    background-color: rgb(2, 104, 104);
+}
+
+.login-divide {
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: var(--bg-color9);
+    margin: 16px auto;
+}
+
+.login-forgot {
+    color: var(--bg-color4);
+}
+
+.login-forgot > a {
+    color: var(--text-color);
+}
+
+.login-forgot + .login-forgot {
+    margin-top: 4px;
+}

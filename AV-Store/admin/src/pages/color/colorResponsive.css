@@ -1,0 +1,21 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .color__content {
+        padding-top: 0px;
+    }
+
+    .color__picker {
+        left: -40px;
+    }
+
+    .color__list-wrapper {
+        padding: 16px 8px;
+    }
+}

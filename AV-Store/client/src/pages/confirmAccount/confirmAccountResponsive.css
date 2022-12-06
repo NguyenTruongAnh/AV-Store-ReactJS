@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .confirm-account__title {
+        font-size: 28px;
+    }
+}

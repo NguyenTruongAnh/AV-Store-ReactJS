@@ -1,0 +1,23 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .collections-filter {
+        padding: 12px;
+        overflow-x: auto;
+        max-width: 100%;
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+
+    .collections-option {
+        flex-shrink: 0;
+        width: 120px;
+        height: 80px;
+        border: none;
+        border-radius: 12px;
+        margin: 4px;
+    }
+
+    .collections-option:hover {
+        border: none;
+    }
+}

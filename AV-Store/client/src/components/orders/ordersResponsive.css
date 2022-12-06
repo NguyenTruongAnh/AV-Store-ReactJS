@@ -1,0 +1,21 @@
+/* Movile and Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .orders-header__right span {
+        font-size: 14px;
+    }
+
+    .orders-footer {
+        padding: 12px;
+        font-size: 16px;
+    }
+}

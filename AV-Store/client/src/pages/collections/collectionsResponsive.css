@@ -1,0 +1,24 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .collections-titles {
+        margin-bottom: 100px;
+    }
+
+    .collections-title--lg {
+        margin-top: 20px;
+        font-size: 42px;
+    }
+
+    .collections-item {
+        padding: 20px 8px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .collections-item__img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+}

@@ -1,0 +1,29 @@
+/* Mobile */
+@media (max-width: 739px) { 
+    .order-detail-rating {
+        flex-direction: column;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+
+    .order-detail-rating > button {
+        margin-top: 8px;
+    }
+
+    .order-detail__checkouts-item {
+        flex-direction: column;
+    }
+
+    .order-detail__checkouts-item > span:first-child {
+        justify-content: flex-start;
+    }
+    
+    .order-detail__checkouts-item > span:last-child {
+        width: 100%;
+    }
+
+    .order-detail-rating__model-content {
+        width: 90%;
+        padding: 24px 12px;
+    }
+}

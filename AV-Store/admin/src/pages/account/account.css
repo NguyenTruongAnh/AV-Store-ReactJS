@@ -1,0 +1,82 @@
+.account__control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.account__search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    padding: 0 12px;
+    border: 2px solid var(--bg-color8);
+    border-radius: 30px;
+}
+
+.account__search-input {
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    flex: 1;
+}
+
+.account__search-btn {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account__table {
+    margin-top: 16px;
+}
+
+.account__table-item {
+    font-family: 'Lora', serif;
+}
+
+.account__table-item-id a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+}
+
+.account__table-item-id a:hover {
+    font-weight: 700;
+    color: #444;
+    text-decoration: underline !important;
+}
+
+.account__table-item-phone {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.account__table-item-control a {
+    text-decoration: none;
+}
+
+.account__table-item-control i {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.account__table-item-control i {
+    color: #28a76f;
+}
+
+.account__table-item-control i:hover {
+    color: #008f51;
+}
+

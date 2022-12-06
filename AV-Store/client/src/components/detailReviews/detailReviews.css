@@ -1,0 +1,46 @@
+.detail-reviews {
+    margin-top: 32px;
+}
+
+.detail-reviews__heading {
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    border-top: 2px solid var(--bg-color9);
+    border-bottom: 2px solid var(--bg-color9);
+    padding: 24px 60px;
+}
+
+.detail-reviews__nums {
+    margin-right: 40px;
+}
+
+.detail-reviews__nums span {
+    margin-left: 6px;
+}
+
+.detail-reviews__stars span {
+    font-weight: bold;
+}
+
+.detail-reviews__stars i {
+    color: var(--star-color);
+    margin-left: 6px;
+}
+
+.detail-reviews__filters {
+    padding: 16px 60px;
+    border-bottom: 2px solid var(--bg-color9);
+}
+
+.detail-reviews__filter {
+    padding-right: 8px;
+    margin-right: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.detail-reviews__list {
+    padding: 16px 60px;
+}

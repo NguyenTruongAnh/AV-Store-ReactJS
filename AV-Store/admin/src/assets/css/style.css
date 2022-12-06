@@ -1,0 +1,34 @@
+.page {
+    margin-top: 60px;
+    padding: 32px 40px;
+    flex: 1;
+    overflow-x: hidden;
+}
+
+.page__title {
+    color: var(--text-color);
+}
+
+.page__back {
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.page__back:hover {
+    color: var(--main-color-hover);
+}
+
+th {
+    background-color: white;
+}
+
+th:first-child,
+td:first-child {
+    position: sticky;
+    left: 0px;
+
+}
+
+td:first-child {
+    background-color: white;
+}

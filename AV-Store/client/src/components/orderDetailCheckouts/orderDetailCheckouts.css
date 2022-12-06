@@ -1,0 +1,30 @@
+.order-detail-checkouts {
+    padding: 32px 0;
+}
+
+.order-detail-checkouts__item {
+    display: flex;
+    padding: 12px 0;
+}
+
+.order-detail-checkouts__item.order-detail-checkouts__item--total > span:last-child {
+    font-size: 24px;
+    color: var(--red-color2);
+    font-weight: 600;
+}
+
+.order-detail-checkouts__item > span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.order-detail-checkouts__item > span:first-child {
+    flex: 1;
+    text-align: right;
+}
+
+.order-detail-checkouts__item > span:last-child {
+    width: 200px;
+    text-align: right;
+}

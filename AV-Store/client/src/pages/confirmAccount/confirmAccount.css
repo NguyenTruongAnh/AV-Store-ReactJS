@@ -1,0 +1,21 @@
+.confirm-account {
+    flex: 1;
+    font-family: 'Lora', serif;
+    padding-bottom: 32px;
+    margin-top: calc(var(--header-height) + 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirm-account__img {
+    width: 260px;
+}
+
+.confirm-account__message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+

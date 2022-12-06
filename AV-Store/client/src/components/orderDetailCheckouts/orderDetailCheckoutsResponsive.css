@@ -1,0 +1,14 @@
+/* Mobile */
+@media (max-width: 739px) { 
+    .order-detail-checkouts__item {
+        flex-direction: column;
+    }
+
+    .order-detail-checkouts__item > span:first-child {
+        justify-content: flex-start;
+    }
+    
+    .order-detail-checkouts__item > span:last-child {
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+/* Mobile */
+@media (max-width: 739px) { 
+    .order-detail-info > div {
+        flex-direction: column;
+    }
+
+    .order-detail-info__customer {
+        border: none;
+        padding-right: 0;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid var(--line-color);
+    }
+
+    .order-detail-info__status-item {
+        margin-left: 0;
+    }
+
+    .order-detail-info__status-item  p {
+        flex-direction: column;
+    }
+}

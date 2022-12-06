@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .resend-confirm-title {
+        font-size: 32px;
+    }
+}

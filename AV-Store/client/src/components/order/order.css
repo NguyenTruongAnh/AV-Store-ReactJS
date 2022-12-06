@@ -1,0 +1,67 @@
+.order {
+    font-family: 'Lora', serif;
+    color: #777;
+    font-size: 14px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order__detail {
+    display: flex;
+}
+
+.order__img {
+    width: 100px;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.order__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order__info b {
+    color: #666;
+}
+
+.order__name {
+    margin-bottom: 0;
+    line-height: 24px;
+    height: 26px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.order__quantity {
+
+}
+
+.order__size {
+
+}
+
+.order__price {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-family: var(--font-family1);
+}
+
+.order__price-old {
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-right: 8px;
+}
+
+.order__price-current {
+    font-size: 20px;
+    color: var(--red-color2);
+    font-weight: 600;
+}
+

@@ -1,0 +1,32 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .home-list {
+        margin: 0;
+    }
+
+    .home-title {
+        font-size: 16px;
+    }
+
+    .home-title > span {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    
+    .home-rating__info > h5 {
+        font-size: 16px;
+    }
+
+    .home-member {
+        height: 40px;
+    }
+
+    .home-member__wrapper>p {
+        width: max-content;
+        font-size: 14px;
+    }
+
+    .home-member__link {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,114 @@
+.sitebar {
+    width: 300px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 32px 12px;
+    flex-shrink: 0;
+}
+
+.sitebar-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sitebar-menu__btn {
+    margin-bottom: 12px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sitebar-menu__btn.active > span {
+    opacity: 0;
+}
+
+.sitebar-menu__btn.active::before {
+    transform: rotate(45deg) translate(9px, 8px);
+}
+
+.sitebar-menu__btn.active::after {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.sitebar-menu__btn > span {
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: var(--black-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: all linear 0.2s;
+}
+
+.sitebar-menu__btn::before,
+.sitebar-menu__btn::after {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-radius: 12px;
+    width: 100%;
+    transition: all linear 0.2s;
+    background-color: var(--black-color);
+}
+
+.sitebar-menu__btn::before {
+    top: 0;
+}
+
+.sitebar-menu__btn::after {
+    bottom: 0;
+}
+
+.sitebar-title {    
+    color: #999;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.sitebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sitebar-item {
+    margin-bottom: 12px;
+    border-radius: 24px;
+    border: 1px solid #999;
+}
+
+.sitebar-item a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+.sitebar-item a {
+    color: #777;
+    cursor: pointer;
+}
+
+.sitebar-item.active a {
+    color: #fff;
+    background-color: #999;
+}
+
+.sitebar-item:hover a {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.sitebar-item i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}

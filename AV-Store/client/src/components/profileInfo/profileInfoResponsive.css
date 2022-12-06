@@ -1,0 +1,37 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .profile-info__item-title {
+        width: 150px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .profile-info__title {
+        font-size: 24px;
+    }
+
+    .profile-info__item {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .profile-info__item-input,
+    .profile-info__item-radio {
+        width: 100%;
+    }
+
+    .profile-info__item-title {
+        margin-bottom: 4px;
+    }
+
+    .profile-info__item-select + .profile-info__item-select {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+}

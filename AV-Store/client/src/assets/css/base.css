@@ -1,0 +1,62 @@
+:root {
+    --main-color: #e50914;
+    --main-color-hover: #960007;
+
+    --red-color1: red;
+    --red-color2: #ee4d2d;
+    --blue-color: #1878bd;
+    --blue-color1: #2f5acf;
+    --white-color: #fff;
+    --black-color: #000;
+
+    --text-color: #8c8c8c;
+    --text-color1: #505050;
+    --text-color-hover: #999;
+    --input-color: #868686;
+    --label-color: #e0e0e0;
+
+    --star-color: #ffd840;
+
+    --bg-color1: #111;
+    --bg-color2: #222;
+    --bg-color3: #333;
+    --bg-color4: #444;
+    --bg-color5: #555;
+    --bg-color6: #666;
+    --bg-color7: #777;
+    --bg-color8: #888;
+    --bg-color9: #999;
+
+    --line-color: #d9d9d9;
+    --line-color1: #d8d8d8;
+
+    --header-height: 60px;
+
+    --line-height-text: 2.2rem;
+
+    --font-family-main: 'Lora', serif;
+    --font-family1: 'Josefin Sans', sans-serif;
+    --font-family2: 'Varela', sans-serif;
+    --font-family3: 'Varela Round', sans-serif;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.link {
+    text-decoration: none!important;
+}
+
+.link:hover {
+    color: var(--text-color-hover);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

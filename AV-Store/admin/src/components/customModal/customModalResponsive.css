@@ -1,0 +1,13 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .custom-modal__content {
+        width: 290px;
+    }
+}

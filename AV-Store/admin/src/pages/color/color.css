@@ -1,0 +1,220 @@
+.color__content {
+    padding: 16px 0;
+}
+
+.color__form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.color__form-item:nth-child(2) {
+    flex-direction: row;
+    align-items: center;
+}
+
+.color__form-item input {
+    padding: 4px 12px;
+    outline: none;
+    border: 2px solid var(--bg-color8);
+    border-radius: 8px;
+}
+
+.color__form-item input:focus {
+    border-color: var(--main-color);
+}
+
+.color__form-item-color {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 8px;
+}
+
+.color__form-item-color > span {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 4px;
+    border: 2px solid var(--bg-color9);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color__picker {
+    position: absolute;
+    margin-top: 8px;
+    width: 220px;
+    border-radius: 12px;
+    left: 0;
+    top: 36px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.2s;
+    z-index: 1;
+}
+
+.color__picker.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.color__form-btn {
+    margin-bottom: 16px;
+}
+
+.color__form-btn {
+    width: 100px;
+    padding: 4px 12px;
+    outline: none;
+    border: none;
+    color: var(--white-color);
+    border-radius: 12px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.color__form-confirm {
+    background-color: var(--bg-color6);
+}
+
+.color__form-reset {
+    background-color: var(--blue-color1);
+}
+
+.color__form-update {
+    background-color: var(--green-color1);
+}
+
+.color__form-confirm:hover {
+    outline: none;
+    background-color: var(--bg-color4);
+}
+
+.color__form-reset:hover {
+    background-color: var(--blue-color);
+}
+
+.color__form-update:hover {
+    background-color: var(--green-color);
+}
+
+.color__form-confirm.disabled {
+    cursor: no-drop !important;
+    opacity: 0.6;
+}
+
+.color__form-confirm.disabled:hover {
+    outline: none;
+    opacity: 0.6;
+    background-color: var(--bg-color6);
+}
+
+.color__search-wrapper {
+    display: inline-flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    padding: 0 12px;
+    border: 2px solid var(--bg-color8);
+    border-radius: 30px;
+}
+
+.color__search-input {
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    flex: 1;
+}
+
+.color__search-btn {
+    cursor: pointer;
+    width: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color__list-wrapper {
+    padding: 16px;
+    margin-top: 12px;
+    border-radius: 12px;
+    border: 2px solid rgb(153 153 153 / 70%);
+}
+
+.color__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.color__list::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+.color__list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 4px grey;
+}
+
+/* Handle */
+.color__list::-webkit-scrollbar-thumb {
+    background-color: var(--bg-color8);
+}
+
+/* Handle on hover */
+.color__list::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-color4);
+}
+
+.color__item {
+    display: inline-flex;
+    padding: 4px 12px;
+    align-items: center;
+    margin: 0 4px 8px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.color__item.edit {
+    background-color: rgb(153 153 153 / 60%);
+    color: var(--white-color);
+}
+
+.color__item-info {
+    display: flex;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.color__item-info > span:nth-child(1) {
+    display: inline-block;
+    border: 1px solid var(--bg-color8);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.color__item-info > span:nth-child(2) {
+    margin: 0 2px;
+}
+
+.color__item-control-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.color__item-control-delete:hover {
+    color: var(--main-color);
+}
+

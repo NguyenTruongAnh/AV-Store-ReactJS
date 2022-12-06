@@ -1,0 +1,31 @@
+.order-detail-rating-products {
+
+}
+
+.order-detail-rating-products__list {
+    border: 2px solid var(--line-color);
+    max-height: 260px;
+    overflow-y: scroll;
+    padding: 12px;
+}
+
+.order-detail-rating-products__list::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+}
+
+.order-detail-rating-products__list::-webkit-scrollbar-thumb {
+    background: var(--red-color2);
+    border-radius: 12px;
+}
+
+.order-detail-rating-products__list::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+.order-detail-rating-products__control {
+    display: flex;
+    justify-content: flex-end;
+    margin: 24px 0 8px;
+}
+

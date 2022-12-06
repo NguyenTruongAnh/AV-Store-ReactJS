@@ -1,0 +1,22 @@
+/* Movile and Tablet */
+@media (max-width: 1023px) {
+    .profile-sidebar::before {
+        display: none;
+    }
+    
+    .profile-sidebar__item {
+        border: 1px solid rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Movile */
+@media (max-width: 739px) {
+    .profile-sidebar__item {
+        font-size: 16px;
+    }
+}

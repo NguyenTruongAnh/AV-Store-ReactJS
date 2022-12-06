@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .register-form {
+        width: 260px;
+    }
+}

@@ -1,0 +1,35 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .product {
+        padding: 0;
+        height: 380px;
+    }
+
+    .product-img {
+        height: 230px;
+    }
+
+    .product-wrapper {
+        flex-direction: column;
+    }
+
+    .product-action {
+        padding-top: 8px;
+        flex-direction: row;
+    }
+
+    .profile-order__search {
+        padding: 8px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .product {
+        height: 360px;
+    }
+
+    .product-img {
+        height: 240px;
+    }
+}

@@ -1,0 +1,6 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .detail-review__heading {
+        flex-direction: column;
+    }
+}

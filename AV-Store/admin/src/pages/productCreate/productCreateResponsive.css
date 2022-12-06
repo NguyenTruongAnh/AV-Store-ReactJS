@@ -1,0 +1,47 @@
+/* Movile and Tablet */
+@media (max-width: 1023px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .product-create__sample {
+        flex-direction: column;
+        padding: 32px 8px 40px;
+        align-items: center;
+    }
+
+    .product-create__sample-color-list-wrapper {
+        padding: 8px 2px;
+    }
+
+    .product-create__sample-color-selected {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-create__sample-color-open {
+        position: relative;
+        transform: translateX(-50%) rotate(0);
+        left: 50%;
+        margin: 0;
+    }
+
+    .product-create__sample-color-open.active {
+        transform: translateX(-50%) rotate(180deg);
+    }
+
+    .product-create__sample-color-list-wrapper::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .product-create__sample-color-list-wrapper::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+

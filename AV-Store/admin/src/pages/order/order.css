@@ -1,0 +1,128 @@
+.order__control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.order__filter {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    margin-top: calc(var(--header-height) + 20px);
+}
+
+.order__filter-title {
+    display: inline-block;
+    color: #999;
+    margin: 0;
+    margin-right: 16px;
+}
+
+.order__search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    padding: 0 12px;
+    border: 2px solid var(--bg-color8);
+    border-radius: 30px;
+}
+
+.order__search-input {
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    flex: 1;
+}
+
+.order__search-btn {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order__table {
+    margin-top: 16px;
+}
+
+.order__table-item {
+    font-family: 'Lora', serif;
+}
+
+.order__table-item-id a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+    width: 120px;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.order__table-item-id a:hover {
+    font-weight: 700;
+    color: #444;
+    text-decoration: underline !important;
+}
+
+.order__table-item-date {
+    font-size: 18px;
+}
+
+.order__table-item-status.wait-confirm {
+    color: var(--text-color);
+}
+
+.order__table-item-status.wait-picking {
+    color: #ffc107;
+}
+
+.order__table-item-status.shipping {
+    color: #1878bd;
+}
+
+.order__table-item-status.complete {
+    color: #28a745;
+}
+
+.order__table-item-status.cancel {
+    color: #dc3545;
+}
+
+.order__table-item-status.return {
+    color: #000;
+}
+
+.order__table-item-price {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.order__table-item-control a {
+    text-decoration: none;
+}
+
+.order__table-item-control i {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.order__table-item-control i {
+    color: #28a76f;
+}
+
+.order__table-item-control i:hover {
+    color: #008f51;
+}

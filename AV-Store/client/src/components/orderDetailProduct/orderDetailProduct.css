@@ -1,0 +1,12 @@
+.order-detail-product__list {
+    padding: 0 12px;
+}
+
+.order-detail-product__item {
+    padding: 12px;
+    border-top: 1px solid var(--line-color);
+}
+
+.order-detail-product__item:last-child {
+    border-bottom: 1px solid var(--line-color);
+}

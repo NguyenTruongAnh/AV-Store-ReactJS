@@ -1,0 +1,75 @@
+:root {
+    --main-color: #e60a15;
+    --main-color-hover: #bd0e17;
+
+    --red-color: red;
+    --blue-color: #1878bd;
+    --blue-color1: #459efd;
+    --green-color: #1a8833;
+    --green-color1: #28a745;
+    --white-color: #fff;
+    --black-color: #000;
+    --star-color: #ffd840;
+
+    --text-color: #8c8c8c;
+    --text-color1: #505050;
+    --text-color-hover: #999;
+    --input-color: #868686;
+    --label-color: #e0e0e0;
+
+    --bg-color1: #111;
+    --bg-color2: #222;
+    --bg-color3: #333;
+    --bg-color4: #444;
+    --bg-color5: #555;
+    --bg-color6: #666;
+    --bg-color7: #777;
+    --bg-color8: #888;
+    --bg-color9: #999;
+
+    --line-height-text: 2.2rem;
+}
+
+.link {
+    text-decoration: none!important;
+}
+
+.link:hover {
+    color: #999;
+}
+
+@keyframes growUp {
+    from {
+        scale: 0;
+    }
+    to {
+        scale: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLight {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.4;
+    }
+}
+
+@keyframes goDown {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 50%;
+    }
+}

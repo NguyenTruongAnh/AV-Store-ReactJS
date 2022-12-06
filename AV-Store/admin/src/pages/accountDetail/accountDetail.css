@@ -1,0 +1,120 @@
+.account-detail__info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account-detail__info-item > img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.account-detail__info-item > h5 {
+    margin-top: 4px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.account-detail__info-item > p {
+    margin-top: 2px;
+    padding: 4px 12px;
+    border: 2px solid var(--bg-color8);
+    border-radius: 12px;
+}
+
+.account-detail__control {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.account-detail__control > button {
+    margin: 0 4px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.account-detail__control > button > i {
+    margin-right: 4px;
+}
+
+.account-detail__control-lock {
+    border-color: var(--main-color);
+    background-color: var(--white-color);
+    color: var(--main-color);
+}
+
+.account-detail__control-lock:hover {
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.account-detail__control-unlock {
+    border-color: var(--green-color1);
+    background-color: var(--white-color);
+    color: var(--green-color1);
+}
+
+.account-detail__control-unlock:hover {
+    border-color: var(--green-color1);
+    background-color: var(--green-color1);
+    color: var(--white-color);
+}
+
+.account-detail__table {
+    margin-top: 16px;
+}
+
+.account-detail__table-item {
+    font-family: 'Lora', serif;
+}
+
+.account-detail__table-item-id a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #777;
+}
+
+.account-detail__table-item-id a:hover {
+    font-weight: 700;
+    color: #444;
+    text-decoration: underline !important;
+}
+
+.account-detail__table-item-date {
+    font-size: 18px;
+}
+
+.account-detail__table-item-status.wait-confirm {
+    color: var(--text-color);
+}
+
+.account-detail__table-item-status.wait-picking {
+    color: #ffc107;
+}
+
+.account-detail__table-item-status.shipping {
+    color: #1878bd;
+}
+
+.account-detail__table-item-status.complete {
+    color: #28a745;
+}
+
+.account-detail__table-item-status.cancel {
+    color: #dc3545;
+}
+
+.account-detail__table-item-status.return {
+    color: #000;
+}
+
+.account-detail__table-item-price {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--main-color);
+}

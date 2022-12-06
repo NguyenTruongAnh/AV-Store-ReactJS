@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 -2px 12px rgba(255, 255, 255, 0.8);
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    margin-bottom: 32px;
+}
+
+.footer-logo > span {
+    font-size: 32px;
+}
+
+.footer-logo > a {
+    font-size: 18px;
+}
+
+.footer-logo__img {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('https://i.pinimg.com/originals/7a/23/8f/7a238f0e6cbc0d76d6511bb5dca4d3a1.jpg')
+}
+
+.footer-logo__copyright {
+    text-align: center;
+    padding: 12px 0;
+}

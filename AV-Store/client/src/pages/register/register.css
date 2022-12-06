@@ -1,0 +1,80 @@
+.register {
+    min-height: 800px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.01),
+        rgba(255, 255, 255, 0.01)), 
+        url("../../assets/images/login-background.jpg");
+    /* background-size: cover; */
+    background-repeat: repeat;
+}
+
+.register-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+.register-title {
+    font-size: 50px;
+}
+
+.register-form {
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-input {
+    padding: 8px 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 16px;
+}
+
+.register-input:focus {
+    border-color: var(--blue-color);
+}
+
+.register-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.register-btn:hover {
+    background-color: rgb(2, 104, 104);
+}
+
+.register-login-btn {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: var(--red-color1);
+    cursor: pointer;
+    color: var(--white-color);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.register-login-btn:hover {
+    color: var(--white-color);
+    background-color: var(--main-color);
+}

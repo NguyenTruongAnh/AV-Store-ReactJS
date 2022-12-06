@@ -1,0 +1,10 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .collection-filter {
+        flex-direction: column;
+    }
+
+    .collection-filter__title {
+        margin-bottom: 12px;
+    }
+}

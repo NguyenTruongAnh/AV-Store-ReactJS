@@ -1,0 +1,47 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .introduce-title--lg {
+        margin-top: 20px;
+        font-size: 42px;
+    }
+
+    .introduce-list {
+        margin-top: 100px;
+    }
+
+    .introduce-item__title {
+        font-size: 22px;
+    }
+
+    .introduce-item__description {
+        line-height: 24px;
+    }
+
+    .introduce-item__description strong {
+        font-size: 18px;
+    }
+
+    .introduce-logan > h1 {
+        font-size: 40px;
+    }
+    
+    .introduce-logan > span {
+        font-size: 16px;
+        color: #999;
+    }
+
+    .introduce-founder__list {
+        flex-direction: column;
+    }
+
+    .introduce-founder__info > h4 {
+        font-size: 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .introduce-item__title {
+        font-size: 26px;
+    }
+}

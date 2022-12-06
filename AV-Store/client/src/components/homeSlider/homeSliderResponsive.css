@@ -1,0 +1,18 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .home-slider__title--lg {
+        margin-top: 20px;
+        font-size: 42px;
+    }
+
+    .home-slider__img {
+        height: 200px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .home-slider__img {
+        height: 400px;
+    }
+}

@@ -1,0 +1,38 @@
+.collections-item {
+    border-bottom: 1px solid var(--bg-color4);
+    padding: 20px 8px 0;
+}
+
+.collections-item:last-child {
+    border-bottom: none;
+}
+
+.collections-item__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 16px 16px;
+}
+
+.collections-item__title h2 {
+    color: #999;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+.collections-item__title a {
+    color: #999;
+}
+
+.collections-item__content {
+    width: 100%;
+}
+
+.collections-item__img {
+    width: 90%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 12px;
+}

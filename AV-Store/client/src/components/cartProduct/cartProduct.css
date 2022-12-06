@@ -1,0 +1,118 @@
+.cart-product {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border: 1px solid var(--line-color);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 40%);
+}
+
+.cart-product__info {
+    display: flex;
+    flex: 2;
+}
+
+.cart-product__detail {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cart-product__detail b {
+    color: #777;
+}
+
+.cart-product__img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cart-product__name a {
+    color: var(--text-color);
+    margin-left: 8px;
+}
+
+.cart-product__name a:hover {
+    text-decoration: none;
+}
+
+.cart-product__id {
+    width: 120px;
+    overflow: hidden;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: 1;
+}
+
+.cart-product__color {}
+
+.cart-product__size {}
+
+.cart-product__price {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-product__control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.cart-product__amount {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+}
+
+.cart-product__decrease:hover,
+.cart-product__increase:hover {
+    background-color: var(--bg-color9);
+    color: var(--white-color);
+}
+
+.cart-product__payment {
+    font-family: var(--font-family1);
+}
+
+.cart-product__payment-current {
+    font-size: 28px;
+    color: var(--red-color2);
+}
+
+.cart-product__payment-old {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.cart-product__delete {
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-product__delete:hover {
+    background-color: var(--bg-color9);
+    color: var(--white-color);
+}

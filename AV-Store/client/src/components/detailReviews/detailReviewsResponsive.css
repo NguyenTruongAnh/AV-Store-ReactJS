@@ -1,0 +1,38 @@
+/* Mobile */
+@media (max-width: 739px) {
+    .detail-reviews__heading {
+        padding: 20px 16px;
+        font-size: 20px;
+    }
+
+    .detail-reviews__nums {
+        margin-right: 24px;
+    }
+
+    .detail-reviews__filters {
+        padding: 16px;
+    }
+
+    .detail-reviews__filter {
+        margin-right: 24px;
+    }
+
+    .detail-reviews__list {
+        padding: 16px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .detail-reviews__heading {
+        padding: 24px 16px;
+    }
+
+    .detail-reviews__filters {
+        padding: 16px;
+    }
+
+    .detail-reviews__list {
+        padding: 16px 32px;
+    }
+}

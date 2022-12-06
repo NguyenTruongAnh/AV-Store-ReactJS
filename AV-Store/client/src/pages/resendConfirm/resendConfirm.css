@@ -1,0 +1,84 @@
+.resend-confirm {
+    position: relative;
+    min-height: 800px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)), 
+        url("../../assets/images/login-background.jpg");
+    background-repeat: repeat;
+}
+
+.resend-confirm-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+.resend-confirm-title {
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+
+.resend-confirm-form {
+    width: 90%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resend-confirm-input {
+    padding: 8px 20px;
+    background-color: white;
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 16px;
+}
+
+.resend-confirm-input:focus {
+    border-color: var(--blue-color);
+}
+
+.resend-confirm-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.resend-confirm-btn:hover {
+    background-color: red;
+}
+
+.resend-confirm-btn:disabled {
+    cursor: not-allowed;
+    background-color: rgb(241, 154, 154);
+}
+
+.resend-confirm-login-btn {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: var(--red-color1);
+    cursor: pointer;
+    color: var(--white-color);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.resend-confirm-login-btn:hover {
+    color: var(--white-color);
+    background-color: var(--main-color);
+}

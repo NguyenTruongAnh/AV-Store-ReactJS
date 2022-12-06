@@ -1,0 +1,118 @@
+.order-detail-info {
+    position: relative;
+    margin: 32px 0;
+    padding: 12px 0 24px;
+}
+
+.order-detail-info::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-image: repeating-linear-gradient(45deg,var(--bg-color4),var(--bg-color4) 33px,transparent 0,transparent 41px,var(--red-color2) 0,var(--red-color2) 74px,transparent 0,transparent 82px);
+}
+
+.order-detail-info::after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-image: repeating-linear-gradient(45deg,var(--bg-color4),var(--bg-color4) 33px,transparent 0,transparent 41px,var(--red-color2) 0,var(--red-color2) 74px,transparent 0,transparent 82px);
+}
+
+.order-detail-info > h5 {
+    padding: 16px 0;
+}
+
+.order-detail-info > div {
+    display: flex;
+}
+
+.order-detail-info__customer {
+    max-width: 400px;
+    padding-right: 16px;
+    border-right: 1px solid var(--line-color);
+}
+
+.order-detail-info__customer > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.order-detail-info__customer > div > p {
+    margin-bottom: 2px;
+}
+
+.order-detail-info__status {
+    flex: 1;
+}
+
+.order-detail-info__status-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.order-detail-info__status-item {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 16px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.order-detail-info__status-item::before {
+    position: absolute;
+    display: block;
+    content: "";
+    background-color: var(--line-color1);
+    height: 100%;
+    top: 8px;
+    left: 17px;
+    width: 2px;
+}
+
+.order-detail-info__status-item:last-child:before {
+    display: none;
+}
+
+.order-detail-info__status-item.active > span {
+    background-color: var(--red-color2);
+}
+
+.order-detail-info__status-item.active > p > span:last-child {
+    color: var(--red-color2);
+    font-weight: 600;
+}
+
+.order-detail-info__status-item > span {
+    flex-shrink: 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 12px 0;
+    border-radius: 50%;
+    background-color: var(--line-color1);
+    z-index: 1;
+}
+
+.order-detail-info__status-item > p {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.order-detail-info__status-item > p > span:first-child {
+    flex-shrink: 0;
+    margin-right: 8px;
+    color: var(--black-color);
+}

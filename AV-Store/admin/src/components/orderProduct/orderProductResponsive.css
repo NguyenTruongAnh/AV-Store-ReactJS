@@ -1,0 +1,30 @@
+/* Movile and Tablet */
+@media (max-width: 1023px) {
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .order-product {
+        flex-direction: column;
+        padding: 4px 0;
+    }
+
+    .order-product__left {
+        width: 100%;
+    }
+
+    .order-product__img {
+        width: 80px;
+    }
+
+    .order-product__right {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+}

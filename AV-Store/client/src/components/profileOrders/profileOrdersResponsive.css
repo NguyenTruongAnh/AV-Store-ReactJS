@@ -1,0 +1,10 @@
+/* Movile */
+@media (max-width: 739px) {
+    .profile-orders__title {
+        font-size: 24px;
+    }
+
+    .profile-orders__search {
+        padding: 8px 16px;
+    }
+}
